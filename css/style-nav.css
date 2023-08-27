@@ -1,0 +1,37 @@
+  .mynav{
+              border: 0px solid;
+              width: 200px;
+              margin: 0 auto;   
+          }
+         .nav>li>a{
+              white-space: nowrap;
+            font-size: 18px;
+             font-weight: bold;
+             font-style: italic;
+             color: #fff;
+          }
+          .nav>li>a>span{
+              width: 45px;
+              height: 45px;
+              border-radius: 50%;
+              background: #fff;
+              color: lightblue;
+              text-align: center;
+              padding-top: 12px;
+              margin-right: 20px;
+          }
+          .nav>li>a:hover{
+              background: transparent; 
+              color: #333;
+          }
+          .div-padding{
+              padding: 200px 0px;
+           
+          }
+          .main-navigation .close{
+              position: absolute;
+              right: 15px;
+          }
+          .main-navigation{
+              min-height: 100vh;
+                 background: rgba(229, 127, 133, 0.93);}
